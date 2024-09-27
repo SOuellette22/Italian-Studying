@@ -10,19 +10,23 @@ wordsAll = [# Male section of words
             ["Cane", "un", "il", "M"], ["Mese", "un", "il", "M"], ["Cinema", "un", "il", "M"],
             ["Caffe\'", "un", "il", "M"], ["Te\'", "un", "il", "M"], ["Alto", "un", "l\'", "M"],
             ["Simpatico", "un", "il", "M"], ["Sportivo", "uno", "lo", "M"], ["Pigro", "un", "il", "M"],
-            [],
+            ["Timido", "un", "il", "M"], ["Bravo", "un", "il", "M"], ["Creativo", "un", "il", "M"],
+            ["Onesto", "un", "l\'", "M"], ["Estroverso", "un", "l\'", "M"],
             
             # Female section fo words
             ["Amica", "un\'", "l\'", "F"], ["Ragazza", "una", "la", "F"], ["Bambina", "una", "la", "F"],
             ["Sorella", "una", "la", "F"], ["Pizza", "una", "la", "F"], ["Piazza", "una", "la", "F"],
             ["Settimana", "una", "la", "F"], ["Penna", "una", "la", "F"], ["Camera", "una", "la", "F"],
             ["Tazza", "una", "la", "F"], ["Zia", "una", "la", "F"], ["Macchina", "una", "la", "F"],
-            ["Profesoressa", "una", "la", "F"], ["Studentessa", "una", "la", "F"], ["Dottoressa", "una", "la", "F"],
+            ["Professoressa", "una", "la", "F"], ["Studentessa", "una", "la", "F"], ["Dottoressa", "una", "la", "F"],
             ["Madre", "una", "la", "F"], ["Classe", "una", "la", "F"], ["Classe", "una", "la", "F"],
             ["Notte", "una", "la", "F"], ["Foto", "una", "la", "F"], ["Bici", "una", "la", "F"],
             ["Televisione", "una", "la", "F"], ["Stazione", "una", "la", "F"], ["Informazione", "un\'", "l\'", "F"],
             ["Lezione", "una", "la", "F"], ["Stagione", "una", "la", "F"], ["Universita\'", "un\'", "l\'", "F"],
-            ["Citta\'", "una", "la", "F"]
+            ["Citta\'", "una", "la", "F"], ["Alta", "un\'", "l\'", "F"],
+            ["Simpatica", "una", "la", "F"], ["Sportiva", "una", "la", "F"], ["Pigra", "una", "la", "F"],
+            ["Timida", "una", "la", "F"], ["Brava", "una", "la", "F"], ["Creativa", "una", "la", "F"],
+            ["Onesta", "un\'", "l\'", "F"], ["Estroversa", "un\'", "l\'", "F"]
             ]
 
 num = input("How many words do you want to practice:\n")
@@ -50,7 +54,8 @@ def guesting(flag, n):
             a = input("What is the \"un\" article (un,uno,una,un\'):\n")
         elif (n == 2):
             a = input("What is the \"il\" article (il,lo,la,l\'):\n")
-        if (wordsAll[i][n] == a.upper()):
+        if (wordsAll[i][n] == a.upper() or
+            wordsAll[i][n] == a.lower()):
             print("Correct!!!\n")
             return True
         else:
