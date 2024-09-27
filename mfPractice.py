@@ -8,7 +8,9 @@ wordsAll = [# Male section of words
             ["Professore", "un", "il", "M"], ["Studente", "uno", "lo", "M"], ["Dottore", "un", "il", "M"],
             ["Padre", "un", "il", "M"], ["Bicchiere", "un", "il", "M"], ["Latte", "un", "il", "M"],
             ["Cane", "un", "il", "M"], ["Mese", "un", "il", "M"], ["Cinema", "un", "il", "M"],
-            ["Caffe\'", "un", "il", "M"], ["Te\'", "un", "il", "M"],
+            ["Caffe\'", "un", "il", "M"], ["Te\'", "un", "il", "M"], ["Alto", "un", "l\'", "M"],
+            ["Simpatico", "un", "il", "M"], ["Sportivo", "uno", "lo", "M"], ["Pigro", "un", "il", "M"],
+            [],
             
             # Female section fo words
             ["Amica", "un\'", "l\'", "F"], ["Ragazza", "una", "la", "F"], ["Bambina", "una", "la", "F"],
