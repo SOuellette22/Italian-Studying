@@ -8,7 +8,7 @@ wordsAll = [# Male section of words
             ["Professore", "Professori"], ["Studente", "Studenti"], ["Dottore", "Dottori"],
             ["Padre", "Padri"], ["Bicchiere", "Bicchieri"], ["Latte", "Latti"],
             ["Cane", "Cani"], ["Mese", "Mesi"], ["Cinema", "Cinema"],
-            ["Caffe\'", "Caffe\'"], ["Te\'", "Te\'"]
+            ["Caffe\'", "Caffe\'"], ["Te\'", "Te\'"],
             
             # Female section fo words
             ["Amica", "Amice"], ["Ragazza", "Ragazze"], ["Bambina", "Bambine"],
@@ -42,8 +42,7 @@ for i in range(num):
     print("Word num " + str(i + 1) + ": " + wordsAll[i][0])
     count += 1
     a = input("What is the plural version of this word?\n")
-    if (a.lower() == wordsAll[i][1] or 
-        a.upper() == wordsAll[i][1]):
+    if (a.lower() == wordsAll[i][1].lower()):
         print("Correct!!!")
         correct += 1
     else:
