@@ -29,9 +29,9 @@ for i in range(num):
     count += 1
     a = input("What does this word mean?\n")
     if (a.lower() == wordsAll[i][1].lower()):
-        print("Correct!!!")
+        print("Correct!!!\n")
         correct += 1
     else:
-        print("Wrong")
+        print("Wrong\n")
 
 print("You got a " + str(round((correct / count) * 10000) / 100) + "% with " + str(correct) + " correct out of " + str(count))
