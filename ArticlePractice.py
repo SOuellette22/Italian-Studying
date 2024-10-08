@@ -36,7 +36,7 @@ wordsAll = [# Male section of words Singular
             ["Citta\'", "una", "la", "F"], ["Alta", "un\'", "l\'", "F"],
             ["Simpatica", "una", "la", "F"], ["Sportiva", "una", "la", "F"], ["Pigra", "una", "la", "F"],
             ["Timida", "una", "la", "F"], ["Brava", "una", "la", "F"], ["Creativa", "una", "la", "F"],
-            ["Onesta", "un\'", "l\'", "F"], ["Estroversa", "un\'", "l\'", "F"]
+            ["Onesta", "un\'", "l\'", "F"], ["Estroversa", "un\'", "l\'", "F"],
             
             ["Amice", "le", "F"], ["Ragazze", "le", "F"], ["Bambine", "le", "F"],
             ["Sorelle", "le", "F"], ["Pizze", "le", "F"], ["Piazze", "le", "F"],
