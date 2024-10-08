@@ -82,7 +82,7 @@ def guesting(flag, n):
             print("Correct!!!\n")
             return True
         else:
-            print("Wrong\n")
+            print("Wrong, it is " + wordsAll[i][n] + "\n")
             return False
         
 def guestingPlurals(flag, n):
@@ -92,10 +92,10 @@ def guestingPlurals(flag, n):
         elif(n == 1):
             a = input("what is the the \"the\" article plural:\n")
         if(wordsAll[i][n].lower() == a.lower()):
-            print("Correct!!!")
+            print("Correct!!!\n")
             return True
         else:
-            print("Wrong")
+            print("Wrong, it is "  + wordsAll[i][n] + "\n")
             return False
 
 print()

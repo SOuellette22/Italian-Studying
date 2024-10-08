@@ -45,6 +45,6 @@ for i in range(num):
         print("Correct!!!\n")
         correct += 1
     else:
-        print("Wrong\n")
+        print("Wrong, it is " + wordsAll[i][1] + "\n")
 
 print("You got a " + str(round((correct / count) * 10000) / 100) + "% with " + str(correct) + " correct out of " + str(count))

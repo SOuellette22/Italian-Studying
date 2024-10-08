@@ -43,9 +43,9 @@ for i in range(num):
     count += 1
     a = input("What is the plural version of this word?\n")
     if (a.lower() == wordsAll[i][1].lower()):
-        print("Correct!!!")
+        print("Correct!!!\n")
         correct += 1
     else:
-        print("Wrong")
+        print("Wrong, it is " + wordsAll[i][1] + "\n")
 
 print("You got a " + str(round((correct / count) * 10000) / 100) + "% with " + str(correct) + " correct out of " + str(count))
