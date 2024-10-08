@@ -37,6 +37,17 @@ wordsAll = [# Male section of words Singular
             ["Simpatica", "una", "la", "F"], ["Sportiva", "una", "la", "F"], ["Pigra", "una", "la", "F"],
             ["Timida", "una", "la", "F"], ["Brava", "una", "la", "F"], ["Creativa", "una", "la", "F"],
             ["Onesta", "un\'", "l\'", "F"], ["Estroversa", "un\'", "l\'", "F"]
+            
+            ["Amice", "le", "F"], ["Ragazze", "le", "F"], ["Bambine", "le", "F"],
+            ["Sorelle", "le", "F"], ["Pizze", "le", "F"], ["Piazze", "le", "F"],
+            ["Settimane", "le", "F"], ["Penne", "le", "F"], ["Camere", "le", "F"],
+            ["Tazze", "le", "F"], ["Zie", "le", "F"], ["Macchine", "le", "F"],
+            ["Professoresse", "le", "F"], ["Studentesse", "le", "F"], ["Dottoresse", "le", "F"],
+            ["Madri", "le", "F"], ["Classi", "le", "F"], ["Classi", "le", "F"],
+            ["Notti", "le", "F"], ["Foto", "le", "F"], ["Bici", "le", "F"],
+            ["Televisioni", "le", "F"], ["Stazioni", "le", "F"], ["Informazioni", "le", "F"],
+            ["Lezioni", "le", "F"], ["Stagioni", "le", "F"], ["Universita\'", "le", "F"],
+            ["Citta\'", "le", "F"]
             ]
 
 num = input("How many words do you want to practice:\n")
