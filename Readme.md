@@ -22,9 +22,12 @@ This is where you will be able to study:
 
 - Clone repository to github desktop:
 
-    - Click the green button on this page then click the open with github desktop button:
+    - Click the green button on this page then click the open with github desktop button then the blue clone button:
 
 <img width="1148" alt="Screenshot 2024-10-08 at 7 11 09 PM" src="https://github.com/user-attachments/assets/783b324e-bfaa-4705-b091-8a0091f13aa3">
+
+<img width="497" alt="Screenshot 2024-10-08 at 7 15 34 PM" src="https://github.com/user-attachments/assets/81dd283a-c053-43e6-996d-391e366df5bb">
+
 
 ### Step 3:
 - Download Python extenstion in VSCode
@@ -33,6 +36,9 @@ This is where you will be able to study:
     - https://www.youtube.com/watch?v=9o4gDQvVkLU
 
 
+### Step 4:
+
+- 
 
 
 ___
