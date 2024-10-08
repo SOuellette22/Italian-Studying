@@ -7,7 +7,9 @@ This is where you will be able to study:
 
 ---
 ## Installation
-To get this study guide to work you will first have to
+To get this study guide to work you will first have to click the code icon.
+https://github.com/user-attachments/assets/236b70f3-49f8-4b0f-82d5-565cd1cd1883
+
 
 ___
 ## Usage
