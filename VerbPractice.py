@@ -1,6 +1,5 @@
 import random as r
 
-
 verbsAll = [# order goes Io, Tu, Lui/Lei, Noi, Voi, Loro, Meaning
             ["Avere", "Ho", "Hai", "Ha", "Abbiamo", "Avete", "Hanno", "To Have"],
             ["Essere", "Sono", "Sei", "E\'", "Siamo", "Siete", "Sono", "To Be"]

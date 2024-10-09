@@ -140,10 +140,10 @@ for i in range(num):
                 correctilPlural += 1
 
 if (mfFlag == "yes"):
-    print("You got a " + str(round((correctmf / count) * 10000) / 100) + "% with " + str(correctmf) + " correct out of " + str(count))
+    print("You got a " + str(round((correctmf / count) * 10000) / 100) + "% with " + str(correctmf) + " correct out of " + str(count) + " for gendering words")
 if (unFlag == "yes"):
-    print("You got a " + str(round((correctun / countS) * 10000) / 100) + "% with " + str(correctun) + " correct out of " + str(countS))
+    print("You got a " + str(round((correctun / countS) * 10000) / 100) + "% with " + str(correctun) + " correct out of " + str(countS) + " for \"un/una\" article")
 if (ilFlag == "yes"):
-    print("You got a " + str(round((correctil / countS) * 10000) / 100) + "% with " + str(correctil) + " correct out of " + str(countS))
+    print("You got a " + str(round((correctil / countS) * 10000) / 100) + "% with " + str(correctil) + " correct out of " + str(countS) + " for \"lo/la\" article")
 if (pluralIlFlag == "yes"):
-    print("You got a " + str(round((correctilPlural / countP) * 10000) / 100) + "% with " + str(correctil) + " correct out of " + str(countP))
+    print("You got a " + str(round((correctilPlural / countP) * 10000) / 100) + "% with " + str(correctil) + " correct out of " + str(countP) + " for \"i/le\" plural article")
