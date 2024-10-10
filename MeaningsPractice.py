@@ -7,20 +7,14 @@ wordsAll = [# All words will be in there masculine forms is they can have both
             ["Fame", "Hungry"], ["Sete", "Thirsty"], ["Sonno", "Sleepy"],
             ["Caldo", "Hot"], ["Freddo", "Cold"], ["Ragione", "Right"],
             ["Intelligente", "Smart"], ["Socievole", "Social"], ["Responsabile", "Responsible"],
-            ["Gentle", "Kind"], ["Giovane", "Young"], ["Sensible", "Sensitive"],
+            ["Gentile", "Kind"], ["Giovane", "Young"], ["Sensible", "Sensitive"],
             ["Lunedi", "Monday"], ["Martedi", "Tuesday"], ["Mercoledi", "Wednesday"],
             ["Giovedi", "Thursday"], ["Venerdi", "Friday"], ["Sabato", "Saturday"],
             ["Domenica", "Sunday"], ["Oggi", "Today"], ["Domani", "Tomorrow"],
             ["Gennaio", "January"], ["Febbraio", "February"], ["Marzo", "March"],
             ["Aprile", "April"], ["Maggio", "May"], ["Giugno", "June"],
             ["Luglio", "July"], ["Agusto", "August"], ["Settembre", "September"],
-            ["Ottobre", "October"], ["Novembre", "November"], ["Dicembre", "December"],
-            ["Studente", "Student"], ["Caffe\'", "Coffee"], ["Professore", "Professor"],
-            ["Ristorante", "Restaurant"], ["Notte", "Night"], ["Classe", "Class"],
-            ["Stagione", "Season"], ["Informazione", "Information"], ["Stazione", "Station"],
-            ["Dottore", "Doctor"], ["Cinema", "Movie Theater"], ["Foto", "Picture"],
-            ["Bici", "Bike"], ["Amico", "Friend"], ["Libro", "Book"],
-            ["Ragazzo", "Male"], ["Ragazza", "Female"]
+            ["Ottobre", "October"], ["Novembre", "November"], ["Dicembre", "December"]
             ]
 
 num = input("How many words do you want to practice:\n")

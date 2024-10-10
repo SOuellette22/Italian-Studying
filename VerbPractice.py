@@ -24,7 +24,7 @@ for i in range(num):
     
     io = input("What is the \"io\" form of the word?\n")
     count += 1
-    if (io == verbsAll[i][1]):
+    if (io.lower() == verbsAll[i][1].lower()):
         correct += 1
         print("Correct!!!" + "\n")
     else:
@@ -32,7 +32,7 @@ for i in range(num):
         
     tu = input("What is the \"tu\" form of the word?\n")
     count += 1
-    if (tu == verbsAll[i][2]):
+    if (tu.lower() == verbsAll[i][2].lower()):
         correct += 1
         print("Correct!!!" + "\n")
     else:
@@ -40,7 +40,7 @@ for i in range(num):
     
     luiLei = input("What is the \"lui\\lei\" form of the word?\n")
     count += 1
-    if (luiLei == verbsAll[i][3]):
+    if (luiLei.lower() == verbsAll[i][3].lower()):
         correct += 1
         print("Correct!!!" + "\n")
     else:
@@ -48,7 +48,7 @@ for i in range(num):
     
     noi = input("What is the \"noi\" form of the word?\n")
     count += 1
-    if (noi == verbsAll[i][4]):
+    if (noi.lower() == verbsAll[i][4].lower()):
         correct += 1
         print("Correct!!!" + "\n")
     else:
@@ -56,7 +56,7 @@ for i in range(num):
         
     voi = input("What is the \"voi\" form of the word?\n")
     count += 1
-    if (voi == verbsAll[i][5]):
+    if (voi.lower() == verbsAll[i][5].lower()):
         correct += 1
         print("Correct!!!" + "\n")
     else:
@@ -64,7 +64,7 @@ for i in range(num):
         
     loro = input("What is the \"loro\" form of the word?\n")
     count += 1
-    if (loro == verbsAll[i][6]):
+    if (loro.lower() == verbsAll[i][6].lower()):
         correct += 1
         print("Correct!!!" + "\n")
     else:
