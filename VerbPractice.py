@@ -3,6 +3,9 @@ import random as r
 verbsAll = [# order goes Io, Tu, Lui/Lei, Noi, Voi, Loro, Meaning
             ["Avere", "Ho", "Hai", "Ha", "Abbiamo", "Avete", "Hanno", "To Have"],
             ["Essere", "Sono", "Sei", "E\'", "Siamo", "Siete", "Sono", "To Be"]
+            ["Parlare", "Parlo", "Parli", "Parla", "Parliamo", "Parlate", "Parlano", "To Speak"],
+            ["Studiare", "Studio", "Studi", "Studia", "Studiamo", "Studiate", "Studiano", "To Live"],
+            
             ]
 
 num = input("How many words do you want to practice:\n")
